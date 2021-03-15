@@ -1,0 +1,26 @@
+<!-- Every plugin must have a key, which identifies the plugin uniquely to the system -->
+<!-- and a name, which is used to display the plugin in menus. -->
+
+<atlassian-plugin key="com.atlassian.jira.plugins.lightsprocket.assetmanagementworkflow" name="Asset Management Workflow" plugins-version="2">
+
+  <!-- The plugin info block allows you to provide more information about your plugin -->
+  <plugin-info>
+  
+    <description>
+      An Asset Management Workflow.  
+    </description>
+    
+    <!-- This version is displayed in the application's Plugin Manager. -->
+    <version>
+    1.0
+    </version>
+    
+    <!-- The versions of the application this plugin is compatible with -->
+    <application-version min="8.6" max="8.15"/>
+    
+    
+    <vendor name="LightSprocket, LLC" url="http://www.lightsprocket.net/"/>
+    
+  </plugin-info>
+ 
+</atlassian-plugin>
